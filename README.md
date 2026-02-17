@@ -26,7 +26,7 @@ A standalone [Kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim) config
 ## Setup
 
 ```sh
-git clone git@github.com:arvenkatachalam/.dotfiles.git ~/.config
+git clone git@github.com:arvenkatachalam/dotfiles.git ~/.config
 brew bundle --file=~/.config/Brewfile
 ```
 

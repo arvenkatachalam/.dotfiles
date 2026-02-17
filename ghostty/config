@@ -1,0 +1,18 @@
+# theme
+theme = catppuccin-mocha
+font-family = JetBrainsMono Nerd Font Mono
+font-size = 13
+
+# window
+window-padding-x = 10
+window-padding-y = 10
+window-padding-balance = true
+background-opacity = 0.7
+background-blur = true
+
+# cursor
+cursor-style = bar
+cursor-style-blink = true
+
+# keybinds
+macos-option-as-alt = true

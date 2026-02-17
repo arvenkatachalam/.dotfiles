@@ -1,0 +1,33 @@
+# macOS
+.DS_Store
+
+# App-generated state (not user config)
+.mono/
+darktable/
+filezilla/
+flox/
+gh/
+gtk-3.0/
+htop/
+iterm2/
+linearmouse/
+menus/
+octave/
+raycast/
+
+# Backup configs
+nvim.bak/
+
+# Downloaded themes/plugins (re-fetched automatically)
+alacritty/themes/
+btop/themes/
+tmux/plugins/
+opencode/node_modules/
+
+# Neovim generated files
+nvim/lazy-lock.json
+nvim/.luarc.json
+nvim/.neoconf.json
+
+# opencode deps
+opencode/bun.lock

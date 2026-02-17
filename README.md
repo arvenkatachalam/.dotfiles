@@ -27,6 +27,13 @@ A standalone [Kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim) config
 
 ```sh
 git clone git@github.com:arvenkatachalam/.dotfiles.git ~/.config
+brew bundle --file=~/.config/Brewfile
+```
+
+The `Brewfile` includes all Homebrew taps, formulae, casks, and VS Code extensions. To update it after installing/removing packages:
+
+```sh
+brew bundle dump --file=~/.config/Brewfile --force
 ```
 
 Neovim plugins install automatically on first launch via lazy.nvim. Mason-managed tools (lua-language-server, stylua, debugpy) install on first open as well.
